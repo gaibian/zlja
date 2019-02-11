@@ -1,30 +1,30 @@
 <template>
-  <div class="app_main_container" id="itany">
-
+  <div id="itany" class="app_main_container">
+    iosjdajdklsajd
   </div>
 </template>
 <script>
 export default {
-  name: "home",
+  name: 'Home',
   data() {
-    //可以在这进行数据的初始化
+    // 可以在这进行数据的初始化
     return {
-  
+
     }
   },
-  computed:{
-    
+  computed: {
+
   },
   created() {
-  
+
   },
   mounted() {
-    
+
   },
   methods: {
-  
+
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
