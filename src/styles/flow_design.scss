@@ -1,0 +1,114 @@
+.navbar-fixed-top{
+  width:100%;
+  height:50px;
+  /*position: absolute;*/
+  /*top:0;*/
+  /*left:0;*/
+  //background:#fff;
+  padding:0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.design-wrapper-box{
+  position: absolute !important;
+  top:0;
+  left:0;
+  padding:0 !important;
+  overflow-x:auto !important;
+}
+.design-process-container{
+  width:1920px;
+  height:1080px;
+  //z-index:1;
+  //background:#fff url('../assets/images/bg.png') no-repeat !important;
+}
+.process-step{
+  background:#ffffed;
+  text-align: center;
+  border:#323232 2px solid;
+  border-radius:4px;
+}
+#leipi_save{
+  position: fixed;
+  top:100px;
+  right:20px;
+  z-index:999;
+}
+.scroll-btn-box{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  z-index:99;
+}
+.mini-layout{
+  background:rgba(255,255,255,0) !important;
+  //background:#fff url('../assets/images/bg.png') no-repeat !important;
+}
+.i-block{
+  display:block;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  text-align: center;
+  border:#DCDFE6 1px solid;
+  border-radius:2px;
+  margin-right:4px;
+  cursor: pointer;
+  font-size:18px;
+  &.active{
+    border:#409EFF 1px solid;
+    color:#409EFF;
+  }
+  &:last-child{
+    margin-right:0;
+  }
+}
+.conditionList{
+  width:100%;
+  border:#DCDFE6 1px solid;
+  border-radius:4px;
+  padding:12px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  li{
+    width:100%;
+    list-style: none;
+    cursor: pointer;
+    padding:0 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    &.active{
+      background:#F2F6FC;
+    }
+  }
+}
+.li{
+  &.active{
+    background:#ccc;
+  }
+}
+#jqContextMenu{
+  ul{
+    border:#E4E7ED 1px solid !important;
+    li{
+      padding:8px 40px 8px 20px !important;
+      cursor: pointer !important;
+      ._label{
+        font-size:13px !important;
+        color:#606266 !important;
+      }
+      &:hover{
+        background:#DCDFE6 !important;
+        i:before{
+          color:#606266 !important;
+        }
+        ._label{
+          color:#606266 !important;
+        }
+      }
+    }
+  }
+}
